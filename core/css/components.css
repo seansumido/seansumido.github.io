@@ -1,0 +1,269 @@
+/* ==============================================
+   HEADER
+   ============================================ */
+.header{
+	margin: 0; padding: 0; display: block;
+	width: 100%; 
+	background: #000
+}
+.header .grid-container{
+	height: 60px;
+}
+.header .grid-container .header-logo{
+	margin-top: 15px;
+	height: 30px;
+}
+.header-menu li a{
+	font-family: 'Gotham Pro Medium';
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.header-text{
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 60px;
+	color: #fff;
+}
+a.header-text:hover{
+	color: #ccc;
+}
+.float-right{
+	float: right;
+	text-align: left;
+}
+/* ==============================================
+   SECTION - HERO
+   ============================================ */
+.section-hero{
+	padding: 0px; 
+	margin: 0;
+	display: block;
+	width: 100%;
+	height:350px;
+	background: #ccc;
+}
+
+/* ==============================================
+   SECTION - PORTFOLIO
+   ============================================ */
+.section-portfolio{
+	padding-top: 60px; 
+	padding-bottom: 60px;
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+	background: #FFF;
+}
+.section-portfolio h4{
+	margin-bottom: 30px;
+	font-family: 'Gotham Pro Bold';
+	text-align: center;
+
+}
+.grid-container{
+	max-width: 1000px;
+}
+.card-gallery-thumbnail{
+	border: 0px #fff solid;
+}
+.card-section{
+	padding: 10px 10px;
+}
+.card-section .category{
+	margin-top: -5px;
+	font-family: 'Gotham Pro';
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+.card-gallery-thumbnail h5{
+	text-align: center;
+	line-height: 14px;
+}
+.card-gallery-thumbnail h5 a{
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+}
+
+/* ==============================================
+   SECTION - ABOUT
+   ============================================ */
+.section-about{
+	padding: 0px; 
+	margin: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+	background: url(../images/bg-white-bricks.jpg) #ffffff bottom center repeat-x;
+}
+.section-about .grid-container{
+	max-width: 970px;
+}
+.section-about img{
+	text-align: center;
+}
+.section-about h1{
+	margin-top: 60px;
+	font-family: 'Gotham Pro Bold';
+}
+.section-about p{
+	font-family: 'Gotham Pro';
+	font-size: 14px;
+	line-height: 16px;
+}
+.section-about a{
+	color: #000;
+}
+.section-about a:hover{
+	text-decoration: underline;
+}
+@media only screen and (max-width: 640px) {
+	.pic-large{
+		display: none;
+	}
+	.section-about h1{
+		font-size: 45px;
+	}
+	.section-about{
+		padding:20px;
+		padding-bottom: 0px;
+	}
+}
+@media only screen and (min-width: 641px) {
+	.pic-small{
+		display: none;
+	}
+}
+/* ==============================================
+   FOOTER
+   ============================================ */
+.footer{
+	margin: 0; padding: 40px 0 60px; display: block;
+	width: 100%; 
+	background: #000	
+}
+
+.footer .grid-container{
+	max-width: 1000px;
+	min-height: 180px;
+}
+.footer .cell-center{
+	padding-left: 40px;
+}
+
+.footer-menu-header{
+	margin-bottom: 10px;
+	padding: 0; display: block;
+	color: #ffffff;
+	font-family: 'Gotham Pro Medium';
+	font-size: 16px;
+	font-weight: bold;
+}
+.footer a{
+	color: #fff;	
+}
+
+.footer p,
+.menu-footer li,
+.menu-footer li a{
+	font-family: 'Gotham Pro';
+	font-size: 13px;
+	color: #575760;
+}
+.menu-footer li a{
+	padding-top: 0;
+	padding-left: 0;
+	margin-left: 0;
+}
+.menu-footer.icon-only{
+	margin-top: -10px;
+}
+.menu-footer li a i{
+	font-size: 24px;
+}
+.menu-footer li a:hover{
+	color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+	.footer .grid-container .cell{
+		margin-top: 10px; margin-bottom: 10px;
+		padding-left: 20px; padding-right: 20px;
+	}
+}
+@media only screen and (max-width: 950px) {
+	.cell-center{
+		padding-left: 0px; 
+	}
+}
+
+.cell-copyright{
+	margin-top: 30px;
+}
+p.copyright{
+	font-size: 12px;
+	color: #212124;
+}
+
+
+.menu-work li a{
+	padding-left: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: 'Gotham Pro';
+	font-size: 14px;
+	color: #000;
+}
+.menu-work li a:hover{
+	color: #999a9c;
+}
+.menu-work li.menu-text{
+	padding-left: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: 'Gotham Pro Bold';
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+	color: #000;
+}
+
+.cell-work-title{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+
+}
+.cell-work-title h1{
+	margin-top: -10px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 50px;
+}
+.cell-work-title p{
+	margin-bottom: 25px;
+	font-family: 'Gotham Pro';
+	font-size: 12px;
+	text-align: center;
+	color: #999a9c;
+
+}
+.cell-work-title p span{
+	color: #000;
+}
+.work-title{
+	font-family: 'Gotham Pro Black';
+	text-align: center;
+	text-transform: uppercase;
+}
+.work-footer span{
+	margin-top: 5px;
+	text-align: left;
+	float: left;
+}

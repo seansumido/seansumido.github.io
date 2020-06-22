@@ -1,0 +1,9 @@
+                    <ul class="menu menu-work vertical">
+                      <li class="menu-text">SELECT PROJECT</li>
+                      <li><a href="#">Bamboo Music ttLive</a></li>
+                      <li><a href="#">DoubleSquare Networks</a></li>
+                      <li><a href="#">Bamboo Music Live</a></li>
+                      <li><a href="#">Bamboo Music Live</a></li>
+                      <li><a href="#">Bamboo Music Live</a></li>
+                      <li><a href="#">Bamboo Music Live</a></li>
+                    </ul>
